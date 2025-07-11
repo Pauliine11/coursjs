@@ -18,12 +18,12 @@ prenom = "Catherine";
 
 // -- 3 : une instruction se termine TOUJOURS par un point-virgule, aussi il est possible d'écrire plusieurs instructions sur une seule ligne
 
-//inst_1;
-//inst_2; inst_3;
+inst_1;
+inst_2; inst_3;
 
 // -- 4 : Afficher une boîte de dialogue (2 façons)
-//alert("Super, tu es arrivé sur mon site !");
-//window.alert("Super, tu es arrivé sur mon site !");
+alert("Super, tu es arrivé sur mon site !");
+window.alert("Super, tu es arrivé sur mon site !");
 
 // -- 5 : Afficher dans la console (ici, la valeur de ma variable Prenom)
 console.log(prenom);
@@ -32,17 +32,17 @@ console.log(prenom);
 document.write("<h1>Hello</h1>");
 
 // -- 7 : Demander à l'utilisateur une valeur (2 façons)
-//prompt("Question: on est quel jour ?", "jour de la semaine");
-//window.prompt("Question: on est quel jour ?", "ici le jour de la semaine");
+prompt("Question: on est quel jour ?", "jour de la semaine");
+window.prompt("Question: on est quel jour ?", "ici le jour de la semaine");
 
 // -- et pour manipuler cette valeur, je n'oublie pas de la stocker
 let jour;
-//jour = prompt("On est quel jour ?", "ici, le jour de la semaine");
-//console.log(jour);
+jour = prompt("On est quel jour ?", "ici, le jour de la semaine");
+console.log(jour);
 
 // -- 8 : Attention /!\ le JS est sensible à la casse ('case sensitive')
-//mavariable =/= maVariable =/= ma_variable
-//                camel case       snake case
+mavariable =/= maVariable =/= ma_variable
+               camel case       snake case
 
 // -- 9 : Une variable ne peut pas commencer par un chiffre, ne doit contenir que des caractères alphanumériques, 
 // et ne peut pas être un mot réservé (var, for... des éléments natifs du langage JS)
@@ -73,9 +73,9 @@ const AN = '2020'; // string
 const BIRTH = 2020; // nombre
 
 // -- 6. typeof permet de connaître le type de ma variable
-//console.log(annee);
-//console.log(typeof annee);
-//console.log(vacances);
+console.log(annee);
+console.log(typeof annee);
+console.log(vacances);
 console.log(typeof vacances + " c'est le type de " + vacances);
 
 let unChiffre = "12";
